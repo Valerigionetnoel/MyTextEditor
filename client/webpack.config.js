@@ -24,9 +24,10 @@ module.exports = () => {
         title: 'Webpack Plugin',
       }),
       new InjectManifest({
-        swSrc: './src-sw.js',
+        swSrc: '/src-sw.js',
         swDest: 'service-worker.js',
       }),
+      new MiniCssExtractPlugin(),
       new WebpackPwaManifest({
         name: 'Just another text editor',
         short_name: 'JATE',
@@ -37,7 +38,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('src/images/logo.png'),
+            src: path.resolve('./src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('src', 'icons'),
           },
