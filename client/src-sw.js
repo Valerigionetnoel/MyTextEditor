@@ -41,7 +41,7 @@ registerRoute(
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
   // matchCallback,
   new StaleWhileRevalidate({
-    cacheName,
+    // cacheName,
     plugins: [
       new CacheableResponsePlugin({
         statuses: [0, 200],
