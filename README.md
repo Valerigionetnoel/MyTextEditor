@@ -4,11 +4,12 @@
 This is a text editor. You can write stuff and it will remember it!
 
 ## Usage
-To use this app, simply go [here](). Once on the page, you can install the application by clicking on the install button. You then type what you want in the editor, and it auto save as you go!
+To use this app, simply go [here](https://tranquil-taiga-94347-fa06cbad822f.herokuapp.com/). Once on the page, you can install the application by clicking on the install button. You then type what you want in the editor, and it auto save as you go!
 
 ## Screenshot
 ![This is my live website](./client/src/images/JATEreadme.PNG)
 ## Live URL
+[https://tranquil-taiga-94347-fa06cbad822f.herokuapp.com/](https://tranquil-taiga-94347-fa06cbad822f.herokuapp.com/)
 
 ## Credit
 My GitHub profil is [Valerigionetnoel](https://github.com/Valerigionetnoel) you can email me [here](mailto:valeri.gionetnoel@gmail.com)
