@@ -22,6 +22,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
+        favicon: "./src/images/logo.png",
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -40,8 +41,8 @@ module.exports = () => {
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            // destination: path.join('src', 'icons'),
-            type: 'image/png'
+            destination: path.join('assets', 'icons'),
+            // type: 'image/png'
           },
         ],
       }),
